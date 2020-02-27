@@ -1,0 +1,27 @@
+{
+  "name": "insta-gf-node",
+  "version": "1.0.0",
+  "description": "Auto likes instagram post",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gulzar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.16.1",
+    "instagram-api": "^1.0.3",
+    "node-cron": "^1.2.1",
+    "request": "^2.83.0"
+  },
+  "devEngines": {
+    "node": "8.x"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
